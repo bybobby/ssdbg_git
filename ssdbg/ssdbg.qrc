@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/">
+      <file>res/fonts/Everson Mono Bold.ttf</file>
+      <file>res/stylesheet/ssdbg.qss</file>
+      <file>res/img/on_state.png</file>
+      <file>res/img/off_state.png</file>
+      <file>res/img/icon_window_minimize.png</file>
+      <file>res/img/icon_window_restore.png</file>
+      <file>res/img/icon_window_maximize.png</file>
+      <file>res/img/icon_window_close.png</file>
+      <file>res/img/skin/Hmovetoolbar.png</file>
+      <file>res/img/skin/Hsepartoolbar.png</file>
+      <file>res/img/skin/Vmovetoolbar.png</file>
+      <file>res/img/skin/Vsepartoolbar.png</file>
+      <file>res/img/skin/branch_closed-on.png</file>
+      <file>res/img/skin/branch_closed.png</file>
+      <file>res/img/skin/branch_open-on.png</file>
+      <file>res/img/skin/branch_open.png</file>
+      <file>res/img/skin/checkbox_checked.png</file>
+      <file>res/img/skin/checkbox_checked_disabled.png</file>
+      <file>res/img/skin/checkbox_checked_focus.png</file>
+      <file>res/img/skin/checkbox_indeterminate.png</file>
+      <file>res/img/skin/checkbox_indeterminate_disabled.png</file>
+      <file>res/img/skin/checkbox_indeterminate_focus.png</file>
+      <file>res/img/skin/checkbox_unchecked.png</file>
+      <file>res/img/skin/checkbox_unchecked_disabled.png</file>
+      <file>res/img/skin/checkbox_unchecked_focus.png</file>
+      <file>res/img/skin/close-hover.png</file>
+      <file>res/img/skin/close-pressed.png</file>
+      <file>res/img/skin/close.png</file>
+      <file>res/img/skin/down_arrow.png</file>
+      <file>res/img/skin/down_arrow_disabled.png</file>
+      <file>res/img/skin/left_arrow.png</file>
+      <file>res/img/skin/left_arrow_disabled.png</file>
+      <file>res/img/skin/radio_checked.png</file>
+      <file>res/img/skin/radio_checked_disabled.png</file>
+      <file>res/img/skin/radio_checked_focus.png</file>
+      <file>res/img/skin/radio_unchecked.png</file>
+      <file>res/img/skin/radio_unchecked_disabled.png</file>
+      <file>res/img/skin/radio_unchecked_focus.png</file>
+      <file>res/img/skin/right_arrow.png</file>
+      <file>res/img/skin/right_arrow_disabled.png</file>
+      <file>res/img/skin/sizegrip.png</file>
+      <file>res/img/skin/stylesheet-branch-end.png</file>
+      <file>res/img/skin/stylesheet-branch-more.png</file>
+      <file>res/img/skin/stylesheet-vline.png</file>
+      <file>res/img/skin/transparent.png</file>
+      <file>res/img/skin/undock.png</file>
+      <file>res/img/skin/up_arrow.png</file>
+      <file>res/img/skin/up_arrow_disabled.png</file>
+    </qresource>
+</RCC>
+
+
+

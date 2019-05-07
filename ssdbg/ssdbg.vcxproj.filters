@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\chart">
+      <UniqueIdentifier>{24918446-8ec8-4e50-8490-827a3a2c0a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\childdlg">
+      <UniqueIdentifier>{b3214fab-95e8-4548-b0f4-d5247abc0198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ftdi">
+      <UniqueIdentifier>{0c15c20e-8a73-4cb0-8bfb-5d6509e99e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mth">
+      <UniqueIdentifier>{939a04ed-e270-44a6-b43c-6ad3ce841347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pyQt">
+      <UniqueIdentifier>{f0ea3e97-07ce-449b-bdf6-febd18651a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serial">
+      <UniqueIdentifier>{9e3a4e3c-6725-454c-a814-915712ab76ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usb">
+      <UniqueIdentifier>{11209e65-fc5e-4f2c-82dd-6a16b9f645e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chart">
+      <UniqueIdentifier>{074fe435-c582-4c8a-bf2a-da1bc6f89122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\childdlg">
+      <UniqueIdentifier>{f5d4a189-a4ac-42d6-a2b3-f7ea3a747596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ftdi">
+      <UniqueIdentifier>{4bb89710-5a3d-4a13-bf8c-29a897c9254b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mth">
+      <UniqueIdentifier>{be20d484-41d9-4340-bcdb-26cb4725341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\serial">
+      <UniqueIdentifier>{911ff9bf-f021-448e-9581-9b8ed0b92ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\usb">
+      <UniqueIdentifier>{07f92d12-f17c-4ee2-a0d6-630fb6959e38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\qtapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chart\mthread.cpp">
+      <Filter>Source Files\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chart\qchartviewer.cpp">
+      <Filter>Source Files\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\dbgdlg.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\dlghandle.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\gphdlg.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\imgdlg.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\ssdbg.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\childdlg\tbldlg.cpp">
+      <Filter>Source Files\childdlg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ftdi\ftdi_usb2spi.cpp">
+      <Filter>Source Files\ftdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ftdi\spi_access.cpp">
+      <Filter>Source Files\ftdi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mth\mtdqueue.cpp">
+      <Filter>Source Files\mth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mth\mtfile.cpp">
+      <Filter>Source Files\mth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mth\mthandle.cpp">
+      <Filter>Source Files\mth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mth\rdyqueue.cpp">
+      <Filter>Source Files\mth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usb\evtflt.cpp">
+      <Filter>Source Files\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serial\qsport.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serial\serialport.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serial\serialport_listing.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serial\uart_acc.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serial\uart_conn.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pyQt\ftdiComObj.cpp">
+      <Filter>Source Files\pyQt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\chart\bchartdir.h">
+      <Filter>Header Files\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\chart\chartdir.h">
+      <Filter>Header Files\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\chart\chartviewer.h">
+      <Filter>Header Files\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\chart\memblock.h">
+      <Filter>Header Files\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\chart\qdoublebufferedqueue.h">
+      <Filter>Header Files\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\childdlg\dlghandle.h">
+      <Filter>Header Files\childdlg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ftdi\ftd2xx.h">
+      <Filter>Header Files\ftdi</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ftdi\ftdi_usb2spi.h">
+      <Filter>Header Files\ftdi</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ftdi\spi_access.h">
+      <Filter>Header Files\ftdi</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mth\mtdqueue.h">
+      <Filter>Header Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mth\mtfile.h">
+      <Filter>Header Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mth\mthandle.h">
+      <Filter>Header Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mth\rdyqueue.h">
+      <Filter>Header Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\usb\evtflt.h">
+      <Filter>Header Files\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\serial\serialport.h">
+      <Filter>Header Files\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\serial\uart_acc.h">
+      <Filter>Header Files\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\serial\uart_conn.h">
+      <Filter>Header Files\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\comm_macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ctrlid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\qtapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\umacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="inc\chart\mthread.h">
+      <Filter>Header Files\chart</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\chart\qchartviewer.h">
+      <Filter>Header Files\chart</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\childdlg\dbgdlg.h">
+      <Filter>Header Files\childdlg</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\childdlg\gphdlg.h">
+      <Filter>Header Files\childdlg</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\childdlg\imgdlg.h">
+      <Filter>Header Files\childdlg</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\childdlg\ssdbg.h">
+      <Filter>Header Files\childdlg</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\childdlg\tbldlg.h">
+      <Filter>Header Files\childdlg</Filter>
+    </QtMoc>
+    <QtMoc Include="inc\serial\qsport.h">
+      <Filter>Header Files\serial</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\Everson Mono Bold.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\stylesheet\ssdbg.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\img\on_state.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\off_state.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\icon_window_minimize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\icon_window_restore.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\icon_window_maximize.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\icon_window_close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\Hmovetoolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\Hsepartoolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\Vmovetoolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\Vsepartoolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\branch_closed-on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\branch_closed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\branch_open-on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\branch_open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_checked_focus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_indeterminate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_indeterminate_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_indeterminate_focus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\checkbox_unchecked_focus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\close-hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\close-pressed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\down_arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\down_arrow_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\left_arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\left_arrow_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_checked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_checked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_checked_focus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_unchecked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_unchecked_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\radio_unchecked_focus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\right_arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\right_arrow_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\sizegrip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\stylesheet-branch-end.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\stylesheet-branch-more.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\stylesheet-vline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\transparent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\undock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\up_arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\img\skin\up_arrow_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ssdbg.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ssdbg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
